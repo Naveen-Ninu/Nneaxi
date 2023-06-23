@@ -1,0 +1,131 @@
+.hero_bg {
+    background-image: url("/assets/images/webp/hero_bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 97%;
+    min-height: 818px;
+}
+
+.hearo_heading {
+    line-height: 75.6px;
+}
+
+.para_l_h_ {
+    line-height: 25.6px;
+}
+
+.main_heading_l_h_ {
+    line-height: 50.4px;
+}
+
+/* ----------------------- Ai-Powered Home Assistant Css ----------------------  */
+.assistent_left_shadow {
+    top: -34px;
+}
+
+.assistent_right_shadow {
+    top: -48%;
+}
+
+
+.logo_hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.logo_hover:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* =============== Talk To Us Css ============================ */
+.talk_start_shadow {
+    top: -88%;
+}
+
+/* ===============Footer Css here ============================ */
+.footer_bg {
+    background-image: url("/assets/images/webp/footer_bg.webp");
+    background-size: 100% 100%;
+}
+
+.footer_end_shadow {
+    top: -79%;
+}
+
+
+.footer-logo-img {
+    max-width: 106px !important;
+    height: 134px !important;
+}
+
+.border_top {
+    border-top: 1px solid #FCFCFC;
+}
+
+/* media query only */
+
+@media (min-width: 992px) {
+    .mw_867 {
+        max-width: 867px;
+    }
+
+    .accordion-body {
+        padding: 1.25rem 1rem 1.25rem 0rem !important;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .contact_us_mobile_img {
+        max-height: 550px;
+    }
+
+    .hero_bg {
+        min-height: 650px;
+    }
+
+    .fad_mobile_bg_shade {
+        max-width: 380px !important;
+        height: 400px !important;
+        left: 80%;
+        transform: translatex(-80%);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .main_heading_l_h_ {
+        line-height: 40px;
+    }
+
+    .hero_bg {
+        background-position: right !important;
+        min-height: 597px;
+        background-size: cover !important;
+    }
+
+    .common_btn {
+        padding: 8px 31px;
+        border-radius: 12px;
+        min-height: 49px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero_bg {
+        background-position: right !important;
+    }
+
+    .common_btn {
+        min-height: 41px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer-logo-img {
+        max-width: 70px !important;
+        height: 70px !important;
+    }
+
+    .hero_bg {
+        min-height: 522px;
+    }
+}
