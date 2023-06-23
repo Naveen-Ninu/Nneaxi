@@ -9,11 +9,11 @@
     line-height: 75.6px;
 }
 
-.para_l_h_ {
+.para_l_h {
     line-height: 25.6px;
 }
 
-.main_heading_l_h_ {
+.main_heading_l_h {
     line-height: 50.4px;
 }
 
@@ -59,6 +59,15 @@
 
 .border_top {
     border-top: 1px solid #FCFCFC;
+}
+
+.footer_hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.footer_hover:hover {
+
+    color: #02CDCF !important;
 }
 
 /* media query only */
