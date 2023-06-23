@@ -343,4 +343,9 @@ nav li a:hover::after {
         max-width: 1140px !important;
         margin: auto;
     }
+
+    .globe_img_container {
+        max-width: 1340px !important;
+        margin: auto;
+    }
 }
