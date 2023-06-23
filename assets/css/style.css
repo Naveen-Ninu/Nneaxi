@@ -337,6 +337,105 @@ nav li a:hover::after {
     }
 }
 
+/*-------------------- Hero css start -------------------- */
+.hero_bg {
+    background-image: url("/assets/images/webp/hero_bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 97%;
+    min-height: 818px;
+}
+
+.hearo_heading {
+    line-height: 75.6px;
+}
+
+.para_l_h {
+    line-height: 25.6px;
+}
+
+.main_heading_l_h {
+    line-height: 50.4px;
+}
+
+/* ----------------------- What Is Nexai Css ----------------------  */
+.globe_img {
+    width: 535px;
+}
+
+.globe_img_container {
+    background-image: url("/assets/images/png/globe_frame_bg.png");
+    background-size: 100% 100%;
+    padding: 140px 100px;
+    background-repeat: no-repeat;
+}
+
+.globe_img_container {
+    max-width: 1340px;
+    margin: auto;
+}
+
+/* ----------------------- Ai-Powered Home Assistant Css ----------------------  */
+.assistent_left_shadow {
+    top: -187px;
+}
+
+.assistent_right_shadow {
+    top: -48%;
+}
+
+
+.logo_hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.logo_hover:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* =============== Talk To Us Css ============================ */
+.talk_start_shadow {
+    top: -88%;
+}
+
+/* ===============Footer Css here ============================ */
+.footer_bg {
+    background-image: url("/assets/images/webp/footer_bg.webp");
+    background-size: 100% 100%;
+}
+
+.footer_end_shadow {
+    width: 20%;
+    top: -79%;
+}
+
+
+.footer-logo-img {
+    max-width: 106px !important;
+    height: 134px !important;
+}
+
+.border_top {
+    border-top: 1px solid #FCFCFC;
+}
+
+.footer_hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.footer_hover:hover {
+
+    color: #02CDCF !important;
+}
+
+/* media query only */
+
+@media (min-width: 992px) {
+    .accordion-body {
+        padding: 1.25rem 1rem 1.25rem 0rem !important;
+        max-width: 80%;
+    }
+}
 
 @media (min-width: 1200px) and (max-width: 1599.98px) {
     .custom_container {
@@ -344,8 +443,87 @@ nav li a:hover::after {
         margin: auto;
     }
 
+}
+
+@media (max-width: 1199.98px) {
     .globe_img_container {
-        max-width: 1340px !important;
+        max-width: 940px;
         margin: auto;
+    }
+
+    .globe_img_container {
+        padding: 60px 21px;
+        background-repeat: no-repeat;
+    }
+
+    .hero_bg {
+        min-height: 650px;
+    }
+
+    .fad_mobile_bg_shade {
+        max-width: 380px !important;
+        height: 400px !important;
+        left: 80%;
+        transform: translatex(-80%);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .main_heading_l_h_ {
+        line-height: 40px;
+    }
+
+    .hero_bg {
+        background-position: right !important;
+        min-height: 597px;
+        background-size: cover !important;
+    }
+
+    .mw_867 {
+        max-width: 867px;
+    }
+
+    .common_btn {
+        padding: 8px 31px;
+        border-radius: 12px;
+        min-height: 49px;
+    }
+
+    .globe_img_container {
+        max-width: 697px !important;
+    }
+
+    .globe_img_container {
+        padding: 50px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero_bg {
+        background-position: right !important;
+    }
+
+    .globe_img_container {
+        max-width: 345px !important;
+
+    }
+
+    .common_btn {
+        min-height: 41px;
+    }
+
+    .globe_img_container {
+        padding: 30px 8px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer-logo-img {
+        max-width: 70px !important;
+        height: 70px !important;
+    }
+
+    .hero_bg {
+        min-height: 522px;
     }
 }
